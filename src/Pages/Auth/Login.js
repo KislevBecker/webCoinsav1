@@ -107,9 +107,9 @@ class Login extends Component {
                <img src={Logo} className="image-fluid center"/>
                 <br />
                 <div className="card-body">
-                <h1 className="text-center">
+                <h2 className="text-center">
                   Bienvenido al módulo de administración de la página corporativa de COINSA
-                </h1>
+                </h2>
                 </div>
                 </div>
              </div>
