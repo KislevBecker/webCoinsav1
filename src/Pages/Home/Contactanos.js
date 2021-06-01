@@ -7,7 +7,7 @@ const Contactanos=()=>{
 return(
   <>
     <h2 className="text-coinsa mt-5">Contáctanos</h2>
-    <div className="row">
+    <div className="row mb-5">
       <div className="col-md-4">
         <div className="card" >
         <ExternalLink className="anchor" href="tel:50422308900">
