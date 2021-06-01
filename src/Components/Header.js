@@ -32,7 +32,7 @@ const Header = () =>{
             {/* </div> */}
         </div>
         <div className="col-12 col-md-2">
-            <div className="d-flex ml-3 mt-2">
+            <div className="ml-3 mt-2" style={{ display: 'flex',flexDirection: 'row'}}>
                 <div className="dropdown">
                     <button className="btn btn-azul dropdown-toggle mr-2 text-uppercase " type="button"
                         id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,7 +44,7 @@ const Header = () =>{
                     </div>
                 </div>
                 <div className="ml-cart">
-                <img src={certificados} alt="logo-farmex" className="w-100 mr-2" />
+                <img src={certificados} alt="logo-farmex" className="image-fluid mr-2" style={{ width: '130px'}}/>
                 </div>
             </div>
         </div>
