@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 
 const Navbar = () =>{
   return (
@@ -58,21 +58,21 @@ const Navbar = () =>{
   <div className="collapse navbar-collapse" id="main_nav">
     <ul className="navbar-nav  fade-up">
     <li className="nav-item">
-        <a className="nav-link text-white font-weight-bold" href="#">Inicio</a>
+        <Link className="nav-link text-white font-weight-bold" to="/">Inicio</Link>
       </li>
       <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle text-white font-weight-bold" id="dropdown1" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">Categorías</a>
+        <Link className="nav-link dropdown-toggle text-white font-weight-bold" id="dropdown1" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Categorías</Link>
         <ul className="dropdown-menu" aria-labelledby="dropdown1">
-          <li className="dropdown-item" href="#"><a>Cuidado del hogar</a></li>
+          <li className="dropdown-item" to="/categorias"><Link>Cuidado del hogar</Link></li>
           <li className="dropdown-item dropdown">
-            <a className="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">Cuidado personal</a>
+            <Link className="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Cuidado personal</Link>
             <ul className="dropdown-menu3" aria-labelledby="dropdown1-1">
-              <li className="dropdown-item" href="#"><a>Cuidado del cabello</a></li>
-              <li className="dropdown-item" href="#"><a>Cuidado del cuerpo</a></li>
-              <li className="dropdown-item" href="#"><a>Cremas especializadas</a></li>
-              <li className="dropdown-item" href="#"><a>Cuidado de la manos</a></li>
+              <li className="dropdown-item" to="/categorias"><Link>Cuidado del cabello</Link></li>
+              <li className="dropdown-item" to="/categorias"><Link>Cuidado del cuerpo</Link></li>
+              <li className="dropdown-item" to="/categorias"><Link>Cremas especializadas</Link></li>
+              <li className="dropdown-item" to="/categorias"><Link>Cuidado de la manos</Link></li>
               
               {/* <li className="dropdown-item dropdown">
                 <a className="dropdown-toggle" id="dropdown1-1-1" data-toggle="dropdown" aria-haspopup="true"
@@ -83,21 +83,21 @@ const Navbar = () =>{
               </li> */}
             </ul>
           </li>
-          <li><a className="dropdown-item" href="#">OTC analgésicos</a></li>
-          <li><a className="dropdown-item" href="#">Éticos</a></li>
-          <li><a className="dropdown-item" href="#">Remedios populares</a></li>
-          <li><a className="dropdown-item" href="#">Antisépticos</a></li>
-          <li><a className="dropdown-item" href="#">Bioseguridad</a></li>
+          <li><Link className="dropdown-item" to="/categorias">OTC analgésicos</Link></li>
+          <li><Link className="dropdown-item" to="/categorias">Éticos</Link></li>
+          <li><Link className="dropdown-item" to="/categorias">Remedios populares</Link></li>
+          <li><Link className="dropdown-item" to="/categorias">Antisépticos</Link></li>
+          <li><Link className="dropdown-item" to="/categorias">Bioseguridad</Link></li>
         </ul>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link text-white font-weight-bold dropdown-toggle" href="#" data-toggle="dropdown">
           Sobre nosotros</a>
         <ul className="dropdown-menu fade-up">
-          <li><a className="dropdown-item" href="#"> Nuestra historia</a></li>
-          <li><a className="dropdown-item" href="#"> Certificaciones </a></li>
-          <li><a className="dropdown-item" href="#"> Exportaciones </a></li>
-          <li><a className="dropdown-item" href="#"> Únete a nuestra familia COINSA </a></li>
+          <li><Link className="dropdown-item" href="#"> Nuestra historia</Link></li>
+          <li><Link className="dropdown-item" href="#"> Certificaciones </Link></li>
+          <li><Link className="dropdown-item" href="#"> Exportaciones </Link></li>
+          <li><Link className="dropdown-item" href="#"> Únete a nuestra familia COINSA </Link></li>
         </ul>
       </li>
       {/* <li className="nav-item dropdown">
@@ -113,10 +113,10 @@ const Navbar = () =>{
         <a className="nav-link text-white font-weight-bold" href="#">Sobre nosotros</a>
       </li> */}
       <li className="nav-item">
-        <a className="nav-link text-white font-weight-bold" href="#">Exportaciones</a>
+        <Link className="nav-link text-white font-weight-bold" href="#">Exportaciones</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-white font-weight-bold" href="#">Líneas de producción</a>
+        <Link className="nav-link text-white font-weight-bold" href="#">Líneas de producción</Link>
       </li>
       {/* <li className="nav-item">
         <a className="nav-link text-white font-weight-bold" href="#">Trabaja con nosotros</a>

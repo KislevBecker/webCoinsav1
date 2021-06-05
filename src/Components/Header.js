@@ -39,7 +39,7 @@ const Header = () =>{
                         <i className="fas fa-user mr-1"></i> Mi Cuenta
                     </button>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a className="dropdown-item" href="/Login">Iniciar sesión</a>
+                        <Link className="dropdown-item" to="/Login">Iniciar sesión</Link>
                         {/* <a className="dropdown-item" href="Register.html">Registrarse</a> */}
                     </div>
                 </div>
