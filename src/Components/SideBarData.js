@@ -29,7 +29,7 @@ export const SidebarData=[
   {
     title:'Agregar categorías',
     icon:<CategoryIcon />,
-    link:'/'
+    link:'/ver-categorias-creadas'
   },
   // {
   //   title:'Cambiar banners',

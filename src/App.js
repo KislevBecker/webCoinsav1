@@ -12,6 +12,9 @@ import SobreNosotros from './Pages/Nosotros/SobreNosotros';
 import Dashboard from './Pages/Admin/Dashboard';
 import AddImaagesPromo from './Pages/Admin/AddImaagesPromo';
 import Login from './Pages/Auth/Login';
+import AddCategories from './Pages/Admin/AddCategories';
+import ListaCategorias from './Pages/Categorias/ListaCategorias';
+import CategoriasCreadas from './Pages/Admin/CategoriasCreadas';
 
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
           <Route path="/Admin-dashboard" component={Dashboard} />
           <Route path="/Agregar-imagen-ofertas" component={AddImaagesPromo} />
           <Route path="/Login" component={Login} />
+          <Route path="/Agregar-categorias" component={AddCategories} />
+          <Route path="/ver-categorias-creadas" component={CategoriasCreadas} />
+          <Route path="/categorias-cuidado-personal" component={ListaCategorias} />
           {/* <Route path="/Proveedores-Farma" component={Agregar} />
           <Route path="/Proveedores-Consumo" component={Consumo} />
           <Route path="/Unete-a-nosotros" component={Unete} /> */}
