@@ -6,7 +6,7 @@ import desinfectante from '../../Img/Desinfectante Comercial.jpg'
 const Categorias=()=>{
 return(
   <>
-    <h2 className="text-coinsa mt-5">Categorías</h2>
+    <h2 className="text-coinsa mt-5">Categorías principales</h2>
     <div className="row">
       <div className="col-md-3">
         <div className="card" style={{height: '20rem', borderRadius:'14px'}}>

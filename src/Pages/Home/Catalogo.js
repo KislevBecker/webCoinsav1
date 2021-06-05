@@ -5,7 +5,7 @@ const SeccionCatalogo=()=>{
 return(
   <>
     <div className="row mt-5">
-      <h2 className="text-coinsa">Mira aquí nuestro catálogo</h2>
+      <h2 className="text-coinsa">Mira aquí nuestro catálogo de productos</h2>
     </div>
     <div className="row">
       <div className="col-md-12 bg-radial">
