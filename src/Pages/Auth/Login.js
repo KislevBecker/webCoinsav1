@@ -87,11 +87,11 @@ class Login extends Component {
                           // <Loader />
                           <div className="spin"></div>
                         ) : (
-                          <button className="btn btn-success btn-lg rounded-pill mt-3 mt-3" type="submit">
-                            {/* Ingresar */}
-                            {/* //solo para redireccionar al administración */}
-                            <Link to ="/Admin-dashboard">Ingresar</Link>
-                          </button>
+                          // <button className="btn btn-success btn-lg rounded-pill mt-3 mt-3" type="submit">
+                          //   Ingresar
+                          // </button>
+                          <Link className="btn btn-success btn-lg rounded-pill mt-3 mt-3" to ="/Admin-dashboard">Ingresar</Link>
+                          
                          )
                       } 
 
