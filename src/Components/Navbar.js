@@ -69,10 +69,10 @@ const Navbar = () =>{
             <Link className="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">Cuidado personal</Link>
             <ul className="dropdown-menu3" aria-labelledby="dropdown1-1">
-              <li className="dropdown-item" to="/categorias"><Link>Cuidado del cabello</Link></li>
-              <li className="dropdown-item" to="/categorias"><Link>Cuidado del cuerpo</Link></li>
-              <li className="dropdown-item" to="/categorias"><Link>Cremas especializadas</Link></li>
-              <li className="dropdown-item" to="/categorias"><Link>Cuidado de la manos</Link></li>
+              <li className="dropdown-item" to="/categorias-cuidado-personal"><Link>Cuidado del cabello</Link></li>
+              <li className="dropdown-item" to="/categorias-cuidado-personal"><Link>Cuidado del cuerpo</Link></li>
+              <li className="dropdown-item" to="/categorias-cuidado-personal"><Link>Cremas especializadas</Link></li>
+              <li className="dropdown-item" to="/categorias-cuidado-personal"><Link>Cuidado de la manos</Link></li>
               
               {/* <li className="dropdown-item dropdown">
                 <a className="dropdown-toggle" id="dropdown1-1-1" data-toggle="dropdown" aria-haspopup="true"
@@ -83,11 +83,11 @@ const Navbar = () =>{
               </li> */}
             </ul>
           </li>
-          <li><Link className="dropdown-item" to="/categorias">OTC analgésicos</Link></li>
-          <li><Link className="dropdown-item" to="/categorias">Éticos</Link></li>
-          <li><Link className="dropdown-item" to="/categorias">Remedios populares</Link></li>
-          <li><Link className="dropdown-item" to="/categorias">Antisépticos</Link></li>
-          <li><Link className="dropdown-item" to="/categorias">Bioseguridad</Link></li>
+          <li><Link className="dropdown-item" to="/categorias-cuidado-personal">OTC analgésicos</Link></li>
+          <li><Link className="dropdown-item" to="/categorias-cuidado-personal">Éticos</Link></li>
+          <li><Link className="dropdown-item" to="/categorias-cuidado-personal">Remedios populares</Link></li>
+          <li><Link className="dropdown-item" to="/categorias-cuidado-personal">Antisépticos</Link></li>
+          <li><Link className="dropdown-item" to="/categorias-cuidado-personal">Bioseguridad</Link></li>
         </ul>
       </li>
       <li className="nav-item dropdown">
