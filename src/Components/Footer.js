@@ -37,6 +37,9 @@ const Footer = () => (
           <li>
           <Link to="/Valores-y-lineamientos" className="anchor"><i class="fas fa-chevron-right"></i> Valores</Link>
           </li>
+          <li>
+          <Link to="/Valores-y-lineamientos" className="anchor"><i class="fas fa-chevron-right"></i> Términos y condiciones</Link>
+          </li>
         </ul>
         </div>
         <div className="col-md-6 mb-3">
